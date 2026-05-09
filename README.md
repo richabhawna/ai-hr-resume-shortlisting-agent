@@ -59,34 +59,6 @@ Candidates are evaluated using the following weights:
 
 ![AI HR Architecture](diagrams/architecture.png)
 
-
-
-
-## Project Structure
-
-```bash
-ai_hr_shortlisting_agent/
-│
-├── agents/
-│   ├── resume_parser.py
-│   ├── jd_parser.py
-│   ├── scoring_agent.py
-│   └── override_agent.py
-│
-├── utils/
-│   ├── pdf_parser.py
-│   ├── docx_parser.py
-│   ├── security.py
-│   └── db.py
-│
-├── models/
-├── data/
-├── app.py
-├── requirements.txt
-├── .env.example
-└── README.md
-```
-
 ---
 
 ## Setup Instructions
@@ -147,19 +119,6 @@ This project includes some basic security handling:
 - `.gitignore` used to prevent secret exposure
 - prompt sanitization to reduce unsafe LLM inputs
 - simple validation before processing candidate/job text
-
----
-
-## Future Improvements
-
-Some possible extensions:
-
-- downloadable PDF shortlist reports
-- email notifications
-- interview scheduling integration
-- LinkedIn profile enrichment
-- ATS integration
-- admin login/dashboard
 
 ---
 
