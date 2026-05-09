@@ -55,6 +55,12 @@ Candidates are evaluated using the following weights:
 - python-docx
 
 ---
+## System Architecture
+
+![AI HR Architecture](diagrams/architecture.png)
+
+
+
 
 ## Project Structure
 
